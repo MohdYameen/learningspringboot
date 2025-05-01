@@ -15,11 +15,11 @@ public class PaymentController {
     @Autowired
     PaymentService paymentService;
 
-    @GetMapping("/{id}")
-    public ResponseEntity<PaymentResponse> getPaymentById(@PathVariable Long id){
+    @GetMapping("/{paymentId}")
+    public ResponseEntity<PaymentResponse> getPaymentById(@PathVariable Long paymentId){
 
         PaymentRequest internalReqObj = new PaymentRequest();
-        internalReqObj.setId(id);
+        internalReqObj.setId(paymentId);
 
         PaymentResponse paymentResponse = paymentService.getPaymentById(internalReqObj);
 
