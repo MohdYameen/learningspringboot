@@ -1,6 +1,5 @@
 package com.conceptandcoding.learningspringboot.productOrder;
 
-import com.conceptandcoding.learningspringboot.jpaDemo.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
