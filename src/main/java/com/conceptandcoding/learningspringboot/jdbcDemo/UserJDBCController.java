@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/jdbc-api")
-public class UserController {
+public class UserJDBCController {
 
     @Autowired
     UserService userService;
