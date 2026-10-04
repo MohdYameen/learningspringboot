@@ -6,3 +6,9 @@ This contanis the following:
 4. Caching
 5. REST APIs
 6. Payment Sercice API
+
+
+To access H2 Database locally:
+1. Type http://localhost:8080/h2-console in your browser.
+2. Enter URL as "jdbc:h2:mem:userDB". 
+3. Run Test
